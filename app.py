@@ -12,7 +12,7 @@ app = Flask(__name__)
 
 
 def text_to_speech():
-    speech_config = speechsdk.SpeechConfig(subscription="d997a6cd637745089586b8f7b9e02f6f", region="westeurope")
+    speech_config = speechsdk.SpeechConfig(subscription="171e02c8f243495e844af9b4568a4af9", region="westeurope")
     speech_config.speech_recognition_language = "en-US"
     #speech_config.speech_synthesis_voice_name = "<your-wanted-voice>"
 
